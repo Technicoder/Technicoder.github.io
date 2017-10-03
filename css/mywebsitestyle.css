@@ -1,0 +1,450 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+.clearfix:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+body {
+	font-family: Georgia, Times, "Times New Roman", serif;
+	line-height: 1.5;
+  background-image: 
+  linear-gradient(rgba(255,255,255,0.2),rgba(255,255,255, 0.3)),
+    url('images/BackgroundImage2.jpg');
+    background-position: 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: bottom;
+}
+
+h1 {
+	font-family: 'Courgette', cursive;
+	font-size: 80px;
+}
+h1, h2, h3 {
+    font-weight: 400;
+    margin: 0;
+}
+
+h2 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+	font-size: 32px;
+}
+h3 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	text-transform: uppercase;
+}
+
+a {
+  transition:1s all;
+  -webkit-transition:1s all;
+}
+
+.content-wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 60px 0;
+    width: 80%;
+}
+
+/* PAGE MENU
+-----------------------------------------*/
+.menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	border-bottom: 1px solid #434A5C;
+	background: #ffffff;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 5;
+}
+
+.menu li {
+  display: inline-block;
+  padding: 20px 35px;
+}
+.menu a {
+	text-decoration: none;
+	color: #333333;
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif; 
+}
+.menu a.active {
+    color: #5E0000;
+}
+.menu a:hover {
+    color: #5E0000;
+}
+
+#main-menu {
+  display: block; 
+}
+
+#hamburger-menu {
+  display: none;
+}
+
+
+
+/*HEADER*/
+
+section.banner{
+		text-align: center;
+		padding-top:130px;
+		padding-bottom:50px;
+	}
+
+  .download{
+  position:fixed;
+  top:65px;
+  right:0;
+  display: inline-block;
+  text-decoration: none;
+  padding: 18px;
+  background: #49464A;
+  color: #fff;
+  opacity: 0.7;
+  transition:1s all;
+  -webkit-transition:1s all; /*add for other browsers*/
+}
+.download:hover{
+  background: #5E0000;
+}
+
+/* COMMON SECTION STYLES 
+-------------------------*/
+.work-experience, 
+.education,
+.favourites {
+  background: #fefefe;
+}
+
+.profile,
+.skills,
+.blog {
+  color: #ffffff;
+}
+
+/* ABOUT ME / PROFILE
+----------------------*/
+.profile {
+  background: rgba(0, 0, 0, 0.8);
+}
+.profile h2 {
+  background: #5E0000;
+  color: #F5DEB3;
+  display: inline-block;
+  padding: 10px 20px;
+  transform: rotate(-4deg);
+  margin-bottom: 10px;
+  border: none;
+  transition: all 0.5s ease;
+}
+.profile h2:hover {
+  transform: rotate(4deg);
+}
+.profile .summary {
+  float: right;
+  width: 70%;
+}
+
+.profile-image {
+  width: 27%;
+  float: left;
+  margin-right: 3%;
+  margin-top: 3%;
+  border: 3px solid #5E0000;
+  border-radius: 50%;
+}
+
+/* BLOG */
+.blog {
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.blog h2 {
+  background: #5E0000;
+  color: #F5DEB3;
+  display: inline-block;
+  padding: 10px 20px;
+  transform: rotate(-4deg);
+  margin-bottom: 10px;
+  border: none;
+  transition: all 0.5s ease;
+}
+.blog h2:hover {
+  transform: rotate(4deg);
+}
+.blog .bloginfo {
+  float: left;
+  width: 70%;
+}
+
+.blog-image {
+  width: 25%;
+  float: right;
+  margin-right: 3%;
+  margin-top: 3%;
+  border: 3px solid #5E0000;
+  border-radius: 50%;
+}
+a {color:#F5DEB3;
+  text-decoration: none;
+}
+
+
+/* WORK EXPERIENCE & EDUCATION
+-------------------------------*/
+
+.item {
+	width: 100%;
+	border-bottom: 1px solid #ccc;
+	clear: both;
+	display: table;
+	margin-bottom: 20px;
+	padding: 20px 0;
+}
+.item:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+/* WORK EXPERIENCE
+-------------------*/
+.work-experience .date {
+  margin: 5px 0 20px 0;
+  font-size: 12px;
+}
+.work-experience h3 {
+  line-height: 1.25;
+  font-size: 16px;
+}
+.work-experience strong {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.work-experience .details {
+  float: left;
+  width: 30%;
+  padding-right: 30px;
+}
+.work-experience .description {
+  font-size: 14px;
+  width: 70%;
+  float: right;
+}
+.work-experience .description p:first-child {
+  margin-top: 8px;
+}
+
+.company {
+  font-family: 'Courgette', cursive;
+  font-size: 20px;
+  letter-spacing: 0.08em;
+  color: #5E0000;
+  margin: 8px 0;
+}
+
+/* SKILLS
+----------*/
+.skills {
+  background: #62544A;
+  background-size: cover;
+  text-align: center;
+  font-size: 20px;
+}
+.skills h3 {
+  margin: 20px;
+}
+.skills h4 {
+  margin-bottom: 10px;
+  color: #F5DEB3;
+}
+.skills i {
+  color: #F5DEB3;
+  border:2px solid #5E0000;
+  border-radius:50%;
+  padding:0 6px;
+  background: black;
+}
+
+.skills-list .columns {
+  width: 33.33%;
+  float: left;
+}
+
+.skills-list ul,
+.skills-circles ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.skills-circles ul li {
+  height: 150px;
+  width: 150px;
+  line-height: 150px;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 10px;
+  border: 2px solid #5E0000;
+  border-radius: 50%;
+  background: black;
+}
+.skills-circles span {
+  line-height: normal;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+
+/* CONTACT 
+--------------------*/
+.contact {
+  background: #62544A;
+  color:#ffffff;
+  padding:0 30px;
+}
+.contact a {
+  color:#F5DEB3;
+}
+.contact p {
+  margin: 0;
+}
+.contact p:first-of-type {
+  margin-top: 35px;
+}
+
+.social {
+  width: 50%;
+  float: right;
+  text-align: right;
+  font-size: 60px;
+}
+.social a {	
+  margin: 0 8px;
+}
+.social a:hover {
+  color: white;
+}
+
+  /* JavaScript Flexslider */
+
+  .flexslider-wrap {
+    width: 50%; /* makes the slider 50% of its container */
+    margin: 0 auto; /* center aligns the slider */
+}
+
+
+
+
+  /* Mobile Hamburger Menu */
+
+.menu-btn div {
+  position: absolute;
+  left: 100%;
+  top: 64%;
+  padding-right: 10px;
+  /*margin-top: -0.50em; */
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: 200;
+  vertical-align: middle;
+  z-index: 99;
+}
+ 
+.menu-btn span {
+  display: block;
+  width: 19px;
+  height: 3px;
+  margin: 4px 0;
+  background: rgb(0,0,0);
+  z-index: 99;
+  list-style-type:none
+}
+
+.responsive-menu{
+  display: none;
+  text-decoration:none;
+  list-style-type:lower-roman;
+  color: red;
+}
+ 
+.mobile-nav{
+  display: none;
+  position: fixed;
+  list-style-type: none;
+}
+
+/*MEDIA QUERIES*/
+/*media queries are used to tell the browser 'When the screen size is 'max-width: #px' run this CSS */
+    @media only screen and (max-width : 970px) {
+      .menu li {
+  padding: 20px 15px;
+}
+  .mobile-nav{
+    display: block;
+  }
+}
+
+
+@media only screen and (max-width : 730px){
+
+    .menu li {
+      padding:20px 10px;
+      font-size:12px;
+	  display: inline-block;
+
+    }
+
+    
+
+}
+
+@media only screen and (max-width : 550px){
+      
+  #main-menu {
+    display: none;
+  }
+    .expand {
+      display: block; 
+    }
+ /* #hamburger-menu {
+    display: block;
+    text-align: left;
+  } */
+
+}
+
+/*google 'hamburger menu tutorial' or search on codepen for examples. */
+
+/* YMC mobile menu version
+nav ul {
+  display: none;
+}
+
+nav.active ul {
+  display: block;
+}
+@media screen and (min-width: 600px) {
+  nav button {
+  display: none;
+  }
+  nav ul {
+  display: block;
+  }
+}
+
+    
+
+
