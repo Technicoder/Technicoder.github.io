@@ -220,7 +220,7 @@ header h2 {
 ----------------------*/
 .profile {
   background: rgba(0, 0, 0, 0.8);
-  padding:150px;
+  padding:150, 50px;
 }
 .profile h2 {
   font-size: 36px;
@@ -655,9 +655,9 @@ footer a:hover {
   }
 }
 
-@media (max-width: 600px) {
+@media screen and (max-width: 600px) {
   header {
-    padding: 75px 40px;
+    padding: 75px 0px;
   } 
   header h1 {
     font-size: 45px;
@@ -675,6 +675,7 @@ footer a:hover {
     width: 100%;
     float:none;
   }
+
   .education h2 {
     font-size: 18px;
   }
