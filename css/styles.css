@@ -655,6 +655,15 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width:785px) {
+  header h1 {
+    font-size:70px;
+  }
+  header h2 {
+    font-size:35px;
+  }
+}
+
 @media screen and (max-width: 600px) {
   header {
     padding: 75px 0px;
