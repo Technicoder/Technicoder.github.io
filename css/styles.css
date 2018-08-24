@@ -693,8 +693,11 @@ footer a:hover {
     float: left; 
     text-align: left; 
     margin-bottom: 20px;
-  }.profile h2 {
+  }
+ .profile h2 {
     font-size: 24px;
+    float:none;
+    margin-left:20px;
   } 
 }
 
