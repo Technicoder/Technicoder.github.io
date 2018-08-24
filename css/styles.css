@@ -666,6 +666,15 @@ footer a:hover {
   section h1 {
     font-size: 24px;
   }
+  .profile-image {
+    width:150px;
+    float:left;
+    margin:0 0px 10px 10px;
+  }
+  .profile-summary {
+    width: 100%;
+    float:none;
+  }
   .education h2 {
     font-size: 18px;
   }
