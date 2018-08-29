@@ -686,6 +686,13 @@ footer a:hover {
   section h1 {
     font-size: 24px;
   }
+  nav {
+    font-size:15px;
+  }
+  nav li {
+    width:110px;
+  }
+  
   .profile-image {
     width:150px;
     float:left;
