@@ -630,6 +630,20 @@ footer a:hover {
   color: #c2d22c;
   text-decoration: none;
 }
+.fa-arrow-up {
+  color:#1b62c4;
+  position:fixed !important;
+  right: 20px;
+  bottom: 20px;
+  float:right;
+  text-align:right;
+  font-size:35px;
+  opacity:0.5;
+}
+.fa-arrow-up:hover {
+  color: #c2d22c;
+  text-decoration: none;
+}
 
 
 /* MEDIA QUERIES
