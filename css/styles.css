@@ -69,7 +69,9 @@ a:hover {
 
 
       /* NAVIGATION */
-  
+.ios {
+  -webkit-tap-highlight-color:rgba(0,0,0,0)"  
+}
   nav {
     position: fixed !important;
     right: 20px;
