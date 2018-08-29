@@ -644,8 +644,12 @@ footer a:hover {
 /* MEDIA QUERIES
 --------------------*/
 @media (max-width: 800px) {
-  body {
+body {
+  font-family: "Merriweather", serif;
+  line-height: 1.5;
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)), url(../images/background_mobile.png) no-repeat fixed;
+  background-size: cover;
+  background-position: 50%;
 }
   
   /* About section */
