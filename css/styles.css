@@ -649,10 +649,6 @@ body {
   line-height: 1.5;
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)), url(../images/background_mobile.png) no-repeat;
   background-size: cover;
-  background-attachment: fixed;
-  background-webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-position: center center;
 }
   
