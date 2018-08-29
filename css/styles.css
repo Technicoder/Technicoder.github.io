@@ -692,6 +692,9 @@ footer a:hover {
   nav li {
     width:110px;
   }
+  .profile {
+    padding:50px 25px; 
+  }
   
   .profile-image {
     width:150px;
