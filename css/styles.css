@@ -649,8 +649,8 @@ body {
   line-height: 1.5;
   background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)), url(../images/background_mobile.png) no-repeat;
   background-size: cover;
-  background-position: fixed;
-  background-attachment: scroll;
+  background-position: center;
+  background-attachment: fixed;
 }
   
   /* About section */
