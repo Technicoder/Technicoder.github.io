@@ -647,9 +647,9 @@ footer a:hover {
 body {
   font-family: "Merriweather", serif;
   line-height: 1.5;
-  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)), url(../images/background_mobile.png) no-repeat fixed;
+  background: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0)), url(../images/background_mobile.png) no-repeat;
   background-size: cover;
-  background-position: 50%;
+  background-position: fixed;
 }
   
   /* About section */
